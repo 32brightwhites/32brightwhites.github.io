@@ -635,11 +635,36 @@ input, select, textarea {
 			margin-bottom: 0 !important;
 		}
 
+		.calendar {
+			display: flex;
+		}
+
+		.calendar:first-child {
+			text-align: right;
+		}
+
+		.half-cell {
+			width: 50%;
+			margin: 0.5rem;
+			background-color: #348cb2;
+			padding: 0 0 0 1rem;
+			margin-bottom: none;
+			height: 190px
+		}
+
+		.half-cell:first-of-type {
+			text-align: right;
+			padding: 0 1rem 0 0;
+		}
+
+		.half-cell p {
+			margin: 0;
+		}
+
 		.header {
 			display: flex;
 			justify-content: space-around;
 			border-bottom: solid 1px #ffffff;
-
 		}
 
 /* Image */
@@ -1805,6 +1830,16 @@ input, select, textarea {
 			opacity: 0.75;
 			margin-bottom: 0;
 			text-transform: uppercase;
+		}
+
+		#footer .info {
+			margin:1rem;
+			display: flex;
+			flex-direction: column;
+		}
+
+		#footer .info span  {
+			margin-left:0.5rem;
 		}
 
 		body.is-article-visible #footer {
