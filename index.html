@@ -12,6 +12,13 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+		<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<!-- <link rel="stylesheet" href="assets/css/calendar.css" /> -->
+		<!-- <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.5.1/moment.min.js"></script> -->
+
 	</head>
 	<body class="is-preload">
 
@@ -32,9 +39,9 @@
 						<nav>
 							<ul>
 								<li><a href="#intro">Intro</a></li>
-								<li><a href="#work">Work</a></li>
+								<li><a href="#work">Calendar</a></li>
 								<li><a href="#about">About</a></li>
-								<li><a href="#ministries">Ministries</a></li>
+								<li><a href="#ministries">Ministry</a></li>
 								<li><a href="#contact">Contact</a></li>
 								<!-- <li><a href="#elements">Elements</a></li> -->
 							</ul>
@@ -57,32 +64,33 @@
 								<p>The Refuge exists as a place to safely practice our faith and worship without fear regardless of ethnicity, age, gender, or economic background. You can expect passionate worship that includes singing, preaching, clapping, hand raising, even dancing, as people express the joy they have found in their relationship with Jesus Christ!</p>
 							</article>
 
-						<!-- Work -->
+						<!-- Calandar -->
 							<article id="work">
-								<h2 class="major">Work</h2>
+								<h2 class="major">Calendar</h2>
 								<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
-								<p>We believe…in one God who became a man; Jesus Christ! We believe that Jesus died, was buried, and rose again. We believe that He is calling us into His Kingdom. We believe that we find forgiveness when we repent. We believe we are unified in agreement with our Lord Jesus Christ when we are baptized in His name. We believe that we are empowered to be witnesses of The Kingdom when we are filled with the Holy Spirit!</p>
-								<p>We believe…in living a life that declares we are part of the Kingdom of God; that we are part of what God is doing on the Earth. We await His return and believe in the power of the resurrection. We are disciples of Jesus Christ and are commissioned to make disciples.</p>
-								<p>Matthew 11:28-30  <span style="color:#ff6666">Come to Me all you who labor and are heavy laden, and I will give you rest.  (29)  Take My yoke on you and learn of Me, for I am meek and lowly in heart, and you shall find rest to your souls. (30) For My yoke is easy, and My burden is light.</span></p>
-								<p>The Refuge exists as a place to safely practice our faith and worship without fear regardless of ethnicity, age, gender, or economic background. You can expect passionate worship that includes singing, preaching, clapping, hand raising, even dancing, as people express the joy they have found in their relationship with Jesus Christ!</p>
+								<div class="">
+									<iframe src="https://calendar.google.com/calendar/embed?src=2f731a8mggo0ejc70ae204l154%40group.calendar.google.com&ctz=America%2FHalifax" style="border: 0" width="100%" height="400" frameborder="0" scrolling="no"></iframe>
+								</div>
 							</article>
 
 						<!-- About -->
 							<article id="about">
 								<h2 class="major">About</h2>
-								<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
+								<span class="image main"><img src="images/refuge.png" alt="" /></span>
 								<p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
 							</article>
 
 							<!-- Ministries -->
 								<article id="ministries">
-									<h2 class="major">Ministries</h2>
-									<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
-									<p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
+									<div class="header" styles="text-align:center">
+										<h1 class="major">Ministry</h1>
+									</div>
+									<!-- <span class="image main"><img src="images/pic03.jpg" alt="" /></span>
+									<p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p> -->
 
 									<!-- SR PASTOR -->
-									<h2 class="major">Senior Pastor</h2>
-									<section class="ministries">
+									<h2 class="major" data-toggle="collapse" href="#sr_pastor" role="button" aria-expanded="false" aria-controls="sr_pastor">Senior Pastor</h2>
+									<section class="ministries" id="sr_pastor">
 										<div class="content">
 											<p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
 										</div>
@@ -430,6 +438,8 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<!-- <script src="assets/js/calendar.js"></script> -->
+
 
 	</body>
 </html>

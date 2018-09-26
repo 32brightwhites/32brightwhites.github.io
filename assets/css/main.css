@@ -7,6 +7,8 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -189,7 +191,8 @@ input, select, textarea {
 		}
 
 		h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
-			border-bottom: solid 1px #ffffff;
+			/* border-bottom: solid 1px #ffffff; */
+			border-bottom: none;
 			width: -moz-max-content;
 			width: -webkit-max-content;
 			width: -ms-max-content;
@@ -619,18 +622,24 @@ input, select, textarea {
 			display: inline-flex;
 			margin-bottom: 2rem;
 			padding: 1rem;
-/*
-			.div {
-				.img {
-					height: 35.6rem;
-					width: 35.6rem;
-				}
-			} */
+			flex-direction: column-reverse;
+			align-items: center;
 		}
 
 		.ministries div img {
 			height: 15.6rem;
 			width: 15.6rem;
+		}
+
+		article > div > h1 {
+			margin-bottom: 0 !important;
+		}
+
+		.header {
+			display: flex;
+			justify-content: space-around;
+			border-bottom: solid 1px #ffffff;
+
 		}
 
 /* Image */
@@ -706,10 +715,6 @@ input, select, textarea {
 
 			.image.main {
 				margin: 2rem 0;
-			}
-
-			.ministries {
-				flex-direction: column-reverse;
 			}
 		}
 
@@ -1122,7 +1127,8 @@ input, select, textarea {
 		transform: translate3d(0,0,0);
 	/* Set your background with this */
 
-		background: #348cb2 url("../../images/mountains.jpg") bottom left;
+	background: #348cb2 url("../../images/halifax-skyline.png") bottom left;
+		/* background: #348cb2 url("../../images/mountains.jpg") bottom left; */
 		background-repeat: repeat-x;
 		height: 100%;
 		left: 0;
@@ -1196,8 +1202,10 @@ input, select, textarea {
 	}
 
 	#bg {
-		background-size: 950px auto;
-		width: 6750px;
+		/* background-size: 950px auto; */
+		background-size: 1250px auto;
+		/* width: 6750px; */
+		width: 10000px
 	}
 
 /* Overlay */
@@ -1504,6 +1512,7 @@ input, select, textarea {
 			#header nav ul li {
 				padding-left: 0;
 				border-left: solid 1px #ffffff;
+				color: black;
 			}
 
 				#header nav ul li:first-child {
