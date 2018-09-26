@@ -635,35 +635,14 @@ input, select, textarea {
 			margin-bottom: 0 !important;
 		}
 
-		.calendar {
-			display: flex;
-		}
-
-		.calendar:first-child {
-			text-align: right;
-		}
-
-		.half-cell {
-			width: 50%;
-			margin: 0.5rem;
-			background-color: #348cb2;
-			padding: 0 0 0 1rem;
-			margin-bottom: none;
-			height: 190px
-		}
-
-		.half-cell:first-of-type {
-			text-align: right;
-			padding: 0 1rem 0 0;
-		}
-
-		.half-cell p {
-			margin: 0;
+		article> h2.major:first-of-type {
+			/* background-color: red; */
+			margin-top: 1rem
 		}
 
 		.header {
-			display: flex;
-			justify-content: space-around;
+			/* display: flex; */
+			/* justify-content: space-around; */
 			border-bottom: solid 1px #ffffff;
 		}
 
@@ -1138,10 +1117,10 @@ input, select, textarea {
 /* BG */
 
 #bg {
-		-moz-animation: bg 120s linear infinite;
-		-webkit-animation: bg 120s linear infinite;
-		-ms-animation: bg 120s linear infinite;
-		animation: bg 120s linear infinite;
+		-moz-animation: bg 150s linear infinite;
+		-webkit-animation: bg 150s linear infinite;
+		-ms-animation: bg 150s linear infinite;
+		animation: bg 150s linear infinite;
 		-moz-backface-visibility: hidden;
 		-webkit-backface-visibility: hidden;
 		-ms-backface-visibility: hidden;
