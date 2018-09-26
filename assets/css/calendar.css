@@ -22,19 +22,37 @@ body {
   -webkit-transform: translate3d(0, 0, 0);
   -moz-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
-  width: 420px;
+  width: 490px;
   margin: 0 auto;
   height: 750px;
   overflow: hidden;
 }
 
+@media screen and (max-width: 736px) {
+	#calendar {
+		width: 330px;
+	}
+}
+
 .header {
   height: 50px;
-  width: 420px;
+  width: 490px;
   /* background: rgba(66, 66, 66, 1); */
   text-align: center;
   position:relative;
   z-index: 100;
+}
+
+@media screen and (max-width: 736px) {
+	.header {
+		width: 330px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.header {
+		width: 250px;
+	}
 }
 
 .header h1 {
@@ -112,7 +130,7 @@ body {
 
 .day {
   display: inline-block;
-  width: 60px;
+  width: 70px;
   padding: 10px;
   text-align: center;
   vertical-align: top;
@@ -120,6 +138,20 @@ body {
   /* background: #4A4A4A; */
   position: relative;
   z-index: 100;
+}
+
+@media screen and (max-width: 736px) {
+	.day {
+		width: 45px;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.day {
+		width: 35px;
+		margin: 0 auto;
+	}
 }
 
 .day.other {
@@ -141,6 +173,12 @@ body {
 .day-number {
   font-size: 24px;
   letter-spacing: 1.5px;
+}
+
+@media screen and (max-width: 736px) {
+	.day-number {
+		font-size: 18px;
+	}
 }
 
 
@@ -172,11 +210,23 @@ body {
 
 .details {
   position: relative;
-  width: 420px;
+  width: 490px;
   height: 75px;
   background: rgba(164, 164, 164, 1);
   margin-top: 5px;
   border-radius: 4px;
+}
+
+@media screen and (max-width: 736px) {
+	.details {
+		width: 330px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.details {
+		width: 250px;
+	}
 }
 
 .details.in {
