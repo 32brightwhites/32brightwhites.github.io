@@ -4,6 +4,15 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+
+// this is for the ministry page to click through the team
+jQuery(function(){
+        jQuery('.showSingle').click(function(){
+              jQuery('.targetDiv').slideUp();
+              jQuery('#div'+$(this).attr('target')).slideDown();
+        });
+});
+
 (function($) {
 
 	var	$window = $(window),

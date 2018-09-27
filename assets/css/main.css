@@ -618,17 +618,19 @@ input, select, textarea {
 			display: none;
 		}
 
-		.ministries {
-			display: inline-flex;
-			margin-bottom: 2rem;
-			padding: 1rem;
-			flex-direction: column-reverse;
-			align-items: center;
-		}
-
 		.ministries div img {
 			height: 15.6rem;
 			width: 15.6rem;
+		}
+
+		div.header {
+			width: auto;
+		}
+
+		.menu {
+			/* background-color: red */
+			display: flex;
+			justify-content: space-between;
 		}
 
 		article > div > h1 {
@@ -636,8 +638,20 @@ input, select, textarea {
 		}
 
 		article> h2.major:first-of-type {
-			/* background-color: red; */
 			margin-top: 1rem
+		}
+		.cnt div{
+			display:none;
+		}
+
+		.cnt div:nth-child(1){
+			display:block;
+		}
+
+		.cnt > .targetDiv> .ministries > .content {
+			align-items: center;
+			display: inline-flex;
+			flex-direction: column;
 		}
 
 		.header {

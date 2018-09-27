@@ -203,10 +203,15 @@ body {
 }
 
 .blue { background: rgba(156, 202, 235, 1); }
-.orange { background: rgba(247, 167, 0, 1); }
-.green { background: rgba(153, 198, 109, 1); }
-.yellow { background: rgba(249, 233, 0, 1); }
-.red { background: rgba(239, 26, 26, 1); }
+/* .orange { background: rgba(247, 167, 0, 1); } */
+/* .green { background: rgba(153, 198, 109, 1); } */
+/* .yellow { background: rgba(249, 233, 0, 1); } */
+/* .red { background: rgba(239, 26, 26, 1); } */
+
+.red { background: #fc4445; }
+.orange { background: #FF652F; }
+.yellow { background: #FFE400; }
+.green { background: #14A76C; }
 
 .details {
   position: relative;
@@ -339,10 +344,10 @@ body {
 }
 
 .entry.blue:after { background: rgba(156, 202, 235, 1); }
-.entry.orange:after { background: rgba(247, 167, 0, 1); }
-.entry.green:after { background: rgba(153, 198, 109, 1); }
-.entry.yellow:after { background: rgba(249, 233, 0, 1); }
-.entry.red:after { background: rgba(239, 26, 26, 1); }
+.entry.orange:after { background: #FF652F; }
+.entry.green:after { background: #14A76C; }
+.entry.yellow:after { background: #FFE400; }
+.entry.red:after { background: #fc4445; }
 
 /* Animations are cool!  */
 @-webkit-keyframes moveFromTopFade {
